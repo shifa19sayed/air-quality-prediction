@@ -192,4 +192,4 @@ MIT Licence — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-**Shifa Ali Asif Sayed** | MSc Data Science | University of Roehampton | 2024–2026
+**Shifa Ali Asif Sayed** | MSc Data Science | University of Roehampton | 2025–2026
