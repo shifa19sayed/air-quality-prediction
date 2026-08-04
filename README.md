@@ -118,29 +118,6 @@ Both issues, their diagnosis, and their fixes are documented in the accompanying
 
 ---
 
-## Setup
-
-### Option 1 — Google Colab (recommended)
-
-1. Click the **Open in Colab** badge above
-2. Set runtime to **T4 GPU**: Runtime → Change runtime type → T4 GPU
-3. Add secrets (🔑 icon in left sidebar):
-   - `OPENAQ_API_KEY` — from [explore.openaq.org/register](https://explore.openaq.org/register)
-   - `CDS_TOKEN` — Personal Access Token from [cds.climate.copernicus.eu/profile](https://cds.climate.copernicus.eu/profile)
-   - Accept the ERA5 licence once at [cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels) (scroll to bottom → Accept terms)
-4. Run all cells (Runtime → Run all). The OpenAQ fetch takes ~15 minutes (real API calls with retry/backoff).
-
-### Option 2 — Local Installation
-
-```bash
-git clone https://github.com/shifa19sayed/air-quality-prediction.git
-cd air-quality-prediction
-pip install -r requirements.txt
-jupyter notebook MSc_Project_AirQuality.ipynb
-```
-
----
-
 ## Model Architectures
 
 ### BaiCNNLSTM (Phase 1 — Replication)
